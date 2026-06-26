@@ -12,7 +12,7 @@ pipeline {
                 bat 'dotnet build'
             }
         }
-        stage('Test') {
+        stage('Run Selenium tests') {
             steps {
                 bat 'dotnet test'
             }
