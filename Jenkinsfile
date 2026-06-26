@@ -15,6 +15,7 @@ pipeline {
         stage('Run Selenium tests') {
             steps {
                 bat 'dotnet test'
+                // test
             }
         }
     }
